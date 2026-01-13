@@ -1,0 +1,1 @@
+BEGIN EXECUTE IMMEDIATE 'SET use_cached_result=true'; EXECUTE IMMEDIATE 'select * from range(1000)'; END;
